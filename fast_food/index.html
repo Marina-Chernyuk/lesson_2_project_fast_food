@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Собрать гамбургер</h1>
+    <form action="">
+        <fieldset class="part"><h3 class="subtitle">Виды гамбургеров (обязательно выбрать):</h3>
+            <label for="">
+                <input class="radio_checkbox viewSmall" type="radio" name="Gamburger" checked><span class="text"> Маленький (50 рублей, 20 калорий)</span>
+            </label>
+            <label for="">
+                <input class="radio_checkbox viewBig" type="radio" name="Gamburger"><span class="text"> Большой (100 рублей, 40 калорий)</span>
+            </label>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset class="part"><h3 class="subtitle">Виды начинок (обязательно выбрать):</h3>
+            <label for="">
+                <input class="radio_checkbox cheese" type="radio" name="Filling" checked><span class="text"> С сыром (+10 рублей, +20 калорий)</span> 
+            </label>
+            <label for="">
+                <input class="radio_checkbox salad" type="radio" name="Filling"><span class="text"> С салатом (+20 рублей, +5 калорий)</span>
+            </label>
+            <label for="">
+                <input class="radio_checkbox potatoes" type="radio" name="Filling"><span class="text"> С картофелем (+15 рублей, +10 калорий)</span>
+            </label>
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset class="part"><h3 class="subtitle"> Дополнительно:</h3>
+            <label for="">
+                <input type="checkbox" class="radio_checkbox seasoning" name="Filling"><span class="text">Посыпать приправой (+15 рублей, +0 калорий)</span>
+            </label>
+            <label for="">
+                <input type="checkbox" class="radio_checkbox mayonnaise" name="Filling"><span class="text">Полить майонезом (+20 рублей, +5 калорий)</span>
+            </label>
+         </fieldset>
+    </form>
+    <button class="button">Стоимость и каллории</button>
+    <form action="">
+        <fieldset class="part"><span class="text result">Стоимость</span>
+            <input class="cost" type="text" placeholder="0">
+        </fieldset>
+        <fieldset class="part"><span class="text result">Калорийность</span>
+            <input class="cal" type="text" placeholder="0">
+        </fieldset>
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

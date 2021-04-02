@@ -1,0 +1,55 @@
+form {
+    width: 600px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 40px;
+    color: darkorchid;
+}
+
+.part {
+    border: 2px solid rebeccapurple;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: blueviolet;
+}
+
+.text {
+ font-size: 20px;
+ color: purple;
+ padding-left: 10px;
+}
+
+.radio_checkbox {
+  padding: 5px 5px;
+}
+.button {
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: indigo;
+    background-color: snow;
+    border: 3px solid indigo;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    color: snow;
+    background-color: slategrey;
+    border: 3px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.result {
+    padding: 15px;
+}
